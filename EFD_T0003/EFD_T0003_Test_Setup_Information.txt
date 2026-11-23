@@ -1,0 +1,15 @@
+CCR: CCR6 (CSF)
+Power Step: 1
+Comm Channel: 7
+
+Wiring Setup:
+1km between both field wires going out of the controller and into the circuit of 90 fixtures. So 2km total added.
+
+
+CCR -> CTRL1 -> FIELD WIRE 1 -> 1km -> Fixtures
+				FIELD WIRE 2 -> 1km -> Fixtures
+				
+No extra wire was added between fixtures.
+
+90 Fixtures are Axon EQ v4 inset light in bottom pans, no top cover or light engines connected during data collection.
+

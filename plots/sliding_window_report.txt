@@ -1,0 +1,1363 @@
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776351640-7-1-1-0.csv
+  (validation labels) loc=1  res=0
+  Signal strength : STRONG   (peak = 50.88x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1064|1065        1062–1067  100%  HIGH     100%   100%    36.35  peakInputLevel, peakUncorrLevel_dB
+  #2    1024|1025        1022–1027    0%  NOISE    100%     0%     5.77  peakInputLevel, peakUncorrLevel_dB
+  #3    1042|1043        1040–1045    0%  NOISE     63%     0%     1.03  peakInputLevel
+  #4    1052|1053        1050–1055    0%  NOISE     45%     0%     0.84  peakInputLevel
+  #5    1032|1033        1030–1035    0%  NOISE     13%     0%     0.50  peakCorrLevel_dB
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776352564-7-1-1-1.csv
+  (validation labels) loc=1  res=1
+  Signal strength : STRONG   (peak = 41.79x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1064|1065        1062–1067  100%  HIGH     100%   100%    29.85  peakInputLevel, peakUncorrLevel_dB
+  #2    1024|1025        1022–1027    0%  NOISE    100%     0%     1.61  peakInputLevel, peakCorrLevel_dB
+  #3    1042|1043        1040–1045    0%  NOISE     42%     0%     0.80  peakInputLevel
+  #4    1052|1053        1050–1055    0%  NOISE     22%     0%     0.59  peakInputLevel
+  #5    1082|1083        1080–1085    0%  NOISE     10%     0%     0.47  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776353487-7-1-1-2.csv
+  (validation labels) loc=1  res=2
+  Signal strength : STRONG   (peak = 9.40x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1064|1065        1062–1067  100%  HIGH     100%   100%     6.72  peakInputLevel
+  #2    1031|1032        1029–1034    0%  NOISE     20%     0%     0.58  
+  #3    1006|1007        1004–1009    0%  NOISE      3%     0%     0.39  
+  #4    1052|1053        1050–1055    0%  NOISE      3%     0%     0.39  
+  #5    1038|1039        1036–1041    0%  NOISE      0%     0%     0.36  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776354410-7-1-1-4.csv
+  (validation labels) loc=1  res=4
+  Signal strength : WEAK   (peak = 0.75x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 7%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1023|1024        1021–1026    7%  NOISE     16%    40%     0.53  
+  #2    1042|1043        1040–1045    3%  NOISE     15%    20%     0.52  peakUncorrLevel_dB
+  #3    1004|1005        1002–1007    0%  NOISE      5%    10%     0.41  peakCorrLevel_dB
+  #4    1029|1030        1027–1032    0%  NOISE      0%     0%     0.33  
+  #5    1061|1062        1059–1064    0%  NOISE      0%     7%     0.29  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776355334-7-1-1-8.csv
+  (validation labels) loc=1  res=8
+  Signal strength : MODERATE   (peak = 1.64x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 23%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1024|1025        1022–1027   23%  LOW       76%    30%     1.17  peakUncorrLevel_dB
+  #2    1013|1014        1011–1016    0%  NOISE      4%     0%     0.40  peakCorrLevel_dB
+  #3    1004|1005        1002–1007    0%  NOISE      0%     0%     0.34  peakCorrLevel_dB
+  #4    1061|1062        1059–1064    0%  NOISE      0%     0%     0.33  
+  #5    1044|1045        1042–1047    0%  NOISE      0%     0%     0.32  
+  Note #1: Weak or unstable; treat as a hint only.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776357180-7-1-2-0.csv
+  (validation labels) loc=2  res=0
+  Signal strength : STRONG   (peak = 18.65x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1024|1025        1022–1027  100%  HIGH     100%   100%    13.32  peakInputLevel, peakUncorrLevel_dB
+  #2    1064|1065        1062–1067    0%  NOISE    100%     0%     8.77  peakInputLevel, peakUncorrLevel_dB
+  #3    1042|1043        1040–1045    0%  NOISE     47%     0%     0.86  peakInputLevel
+  #4    1059|1060        1057–1062    0%  NOISE     31%     0%     0.69  peakInputLevel
+  #5    1005|1006        1003–1008    0%  NOISE     15%     0%     0.52  peakCorrLevel_dB
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776358104-7-1-2-1.csv
+  (validation labels) loc=2  res=1
+  Signal strength : STRONG   (peak = 6.93x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1024|1025        1022–1027  100%  HIGH     100%   100%     4.95  peakInputLevel
+  #2    1064|1065        1062–1067    0%  NOISE     68%     0%     1.09  peakInputLevel
+  #3    1052|1053        1050–1055    0%  NOISE     31%     0%     0.68  peakInputLevel
+  #4    1005|1006        1003–1008    0%  NOISE     10%     0%     0.47  
+  #5    1032|1033        1030–1035    0%  NOISE      5%     0%     0.41  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776359027-7-1-2-2.csv
+  (validation labels) loc=2  res=2
+  Signal strength : WEAK   (peak = 0.71x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 3%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1042|1043        1040–1045    3%  NOISE     14%    20%     0.51  peakInputLevel
+  #2    1032|1033        1030–1035    0%  NOISE      0%     0%     0.31  
+  #3    1015|1016        1013–1018    0%  NOISE      0%     0%     0.27  peakCorrLevel_dB, peakInputLevel
+  #4    1052|1053        1050–1055    0%  NOISE      0%     7%     0.24  
+  #5    1061|1062        1059–1064    0%  NOISE      0%     7%     0.24  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776359951-7-1-2-4.csv
+  (validation labels) loc=2  res=4
+  Signal strength : STRONG   (peak = 3.71x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1024|1025        1022–1027  100%  HIGH     100%   100%     2.65  peakInputLevel
+  #2    1064|1065        1062–1067    0%  NOISE     69%     0%     1.09  peakUncorrLevel_dB, peakInputLevel
+  #3    1032|1033        1030–1035    0%  NOISE     29%     0%     0.67  
+  #4    1059|1060        1057–1062    0%  NOISE      9%     0%     0.45  
+  #5    1052|1053        1050–1055    0%  NOISE      7%     0%     0.43  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776360874-7-1-2-8.csv
+  (validation labels) loc=2  res=8
+  Signal strength : STRONG   (peak = 8.18x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1024|1025        1022–1027  100%  HIGH     100%   100%     5.84  peakInputLevel, peakUncorrLevel_dB
+  #2    1064|1065        1062–1067    0%  NOISE     14%     0%     0.50  peakInputLevel
+  #3    1032|1033        1030–1035    0%  NOISE      4%     0%     0.40  
+  #4    1042|1043        1040–1045    0%  NOISE      1%     0%     0.36  
+  #5    1006|1007        1004–1009    0%  NOISE      0%     0%     0.29  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776362721-7-1-3-0.csv
+  (validation labels) loc=3  res=0
+  Signal strength : STRONG   (peak = 9.20x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1052|1053        1050–1055  100%  HIGH     100%   100%     6.57  peakInputLevel, peakUncorrLevel_dB
+  #2    1042|1043        1040–1045    0%  NOISE     39%     0%     0.77  peakInputLevel
+  #3    1024|1025        1022–1027    0%  NOISE     31%     0%     0.69  peakInputLevel
+  #4    1082|1083        1080–1085    0%  NOISE      0%     0%     0.36  
+  #5    1007|1008        1005–1010    0%  NOISE      0%     0%     0.31  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776363644-7-1-3-1.csv
+  (validation labels) loc=3  res=1
+  Signal strength : STRONG   (peak = 5.62x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1052|1053        1050–1055  100%  HIGH     100%   100%     4.01  peakInputLevel
+  #2    1042|1043        1040–1045    0%  NOISE     10%     0%     0.47  peakInputLevel
+  #3    1032|1033        1030–1035    0%  NOISE      6%     0%     0.42  peakCorrLevel_dB
+  #4    1006|1007        1004–1009    0%  NOISE      4%     0%     0.40  peakCorrLevel_dB
+  #5    1085|1086        1083–1088    0%  NOISE      0%     0%     0.30  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776364568-7-1-3-2.csv
+  (validation labels) loc=3  res=2
+  Signal strength : WEAK   (peak = 0.82x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 13%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1052|1053        1050–1055   13%  NOISE     21%    63%     0.59  peakInputLevel
+  #2    1030|1031        1028–1033    0%  NOISE      4%    10%     0.40  peakUncorrLevel_dB
+  #3    1004|1005        1002–1007    0%  NOISE      0%    10%     0.29  
+  #4    1064|1065        1062–1067    0%  NOISE      0%     0%     0.23  
+  #5    1041|1042        1039–1044    0%  NOISE      0%     0%     0.23  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776365492-7-1-3-4.csv
+  (validation labels) loc=3  res=4
+  Signal strength : WEAK   (peak = 0.90x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 7%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1032|1033        1030–1035    7%  NOISE     27%    27%     0.64  peakCorrLevel_dB
+  #2    1046|1047        1044–1049    4%  NOISE     16%    23%     0.53  peakUncorrLevel_dB
+  #3    1064|1065        1062–1067    1%  NOISE      7%    10%     0.44  
+  #4    1020|1021        1018–1023    0%  NOISE      4%     7%     0.40  peakUncorrLevel_dB
+  #5    1026|1027        1024–1029    0%  NOISE      0%     7%     0.35  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776366415-7-1-3-8.csv
+  (validation labels) loc=3  res=8
+  Signal strength : MODERATE   (peak = 1.30x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 34%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1082|1083        1080–1085   34%  LOW       53%    63%     0.93  peakUncorrLevel_dB
+  #2    1022|1023        1020–1025    0%  NOISE      6%     7%     0.42  
+  #3    1005|1006        1003–1008    0%  NOISE      2%     0%     0.37  peakCorrLevel_dB
+  #4    1032|1033        1030–1035    0%  NOISE      0%    10%     0.33  
+  #5    1044|1045        1042–1047    0%  NOISE      0%     3%     0.31  
+  Note #1: Weak or unstable; treat as a hint only.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776368262-7-1-4-0.csv
+  (validation labels) loc=4  res=0
+  Signal strength : STRONG   (peak = 6.31x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1042|1043        1040–1045  100%  HIGH     100%   100%     4.51  peakInputLevel, peakUncorrLevel_dB
+  #2    1050|1051        1048–1053    0%  NOISE     14%     0%     0.51  peakUncorrLevel_dB
+  #3    1064|1065        1062–1067    0%  NOISE     11%     0%     0.48  
+  #4    1029|1030        1027–1032    0%  NOISE      3%     0%     0.39  
+  #5    1059|1060        1057–1062    0%  NOISE      0%     0%     0.29  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776369186-7-1-4-1.csv
+  (validation labels) loc=4  res=1
+  Signal strength : MODERATE   (peak = 1.84x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 75%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1042|1043        1040–1045   75%  HIGH      89%    83%     1.32  peakInputLevel
+  #2    1032|1033        1030–1035    0%  NOISE     11%     3%     0.47  
+  #3    1056|1057        1054–1059    0%  NOISE      2%     3%     0.38  
+  #4    1064|1065        1062–1067    0%  NOISE      7%     0%     0.43  
+  #5    1020|1021        1018–1023    0%  NOISE      0%     0%     0.30  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776370109-7-1-4-2.csv
+  (validation labels) loc=4  res=2
+  Signal strength : STRONG   (peak = 2.38x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 87%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1042|1043        1040–1045   87%  HIGH     100%    87%     1.70  peakInputLevel
+  #2    1054|1055        1052–1057    1%  NOISE     18%     7%     0.55  
+  #3    1031|1032        1029–1034    0%  NOISE      3%     3%     0.39  
+  #4    1060|1061        1058–1063    0%  NOISE     15%     0%     0.52  
+  #5    1026|1027        1024–1029    0%  NOISE      2%     0%     0.38  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776371032-7-1-4-4.csv
+  (validation labels) loc=4  res=4
+  Signal strength : MODERATE   (peak = 1.78x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 74%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1042|1043        1040–1045   74%  HIGH      85%    87%     1.27  peakInputLevel
+  #2    1069|1070        1067–1072    2%  NOISE     16%    10%     0.52  peakUncorrLevel_dB
+  #3    1064|1065        1062–1067    0%  NOISE     10%     3%     0.46  
+  #4    1054|1055        1052–1057    0%  NOISE      4%     0%     0.40  peakCorrLevel_dB
+  #5    1084|1085        1082–1087    0%  NOISE      0%     0%     0.28  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776371956-7-1-4-8.csv
+  (validation labels) loc=4  res=8
+  Signal strength : STRONG   (peak = 3.35x largest healthy false peak)
+  Active metrics  : 1/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1042|1043        1040–1045  100%  HIGH     100%   100%     2.39  peakInputLevel
+  #2    1064|1065        1062–1067    0%  NOISE      3%     0%     0.39  
+  #3    1024|1025        1022–1027    0%  NOISE      2%     0%     0.38  
+  #4    1031|1032        1029–1034    0%  NOISE      0%     0%     0.36  
+  #5    1048|1049        1046–1051    0%  NOISE      0%     0%     0.32  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776452374-7-1-1-0.csv
+  (validation labels) loc=1  res=0
+  Signal strength : STRONG   (peak = 96.91x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1022|1023        1020–1025  100%  HIGH     100%   100%    76.70  peakInputLevel, peakUncorrLevel_dB
+  #2    1085|1086        1083–1088    0%  NOISE    100%     0%     5.58  peakInputLevel, peakUncorrLevel_dB
+  #3    1036|1037        1034–1039    0%  NOISE    100%     0%     1.78  peakInputLevel
+  #4    1060|1061        1058–1063    0%  NOISE     42%     0%     0.90  peakCorrLevel_dB
+  #5    1070|1071        1068–1073    0%  NOISE     12%     0%     0.54  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+  Note #3: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776453298-7-1-1-1.csv
+  (validation labels) loc=1  res=1
+  Signal strength : STRONG   (peak = 86.94x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1022|1023        1020–1025  100%  HIGH     100%   100%    68.81  peakInputLevel, peakUncorrLevel_dB
+  #2    1036|1037        1034–1039    0%  NOISE    100%     0%     2.27  peakInputLevel
+  #3    1085|1086        1083–1088    0%  NOISE    100%     0%     1.58  peakInputLevel
+  #4    1054|1055        1052–1057    0%  NOISE      7%     0%     0.48  peakCorrLevel_dB
+  #5    1078|1079        1076–1081    0%  NOISE      6%     0%     0.47  peakCorrLevel_dB
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+  Note #3: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776454221-7-1-1-2.csv
+  (validation labels) loc=1  res=2
+  Signal strength : STRONG   (peak = 23.34x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1022|1023        1020–1025  100%  HIGH     100%   100%    18.47  peakInputLevel, peakUncorrLevel_dB
+  #2    1068|1069        1066–1071    0%  NOISE     76%     0%     1.30  peakCorrLevel_dB
+  #3    1035|1036        1033–1038    0%  NOISE     63%     0%     1.15  peakInputLevel
+  #4    1078|1079        1076–1081    0%  NOISE     57%     0%     1.08  peakCorrLevel_dB
+  #5    1084|1085        1082–1087    0%  NOISE     27%     0%     0.71  peakCorrLevel_dB
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776455145-7-1-1-4.csv
+  (validation labels) loc=1  res=4
+  Signal strength : STRONG   (peak = 2.07x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 67%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1078|1079        1076–1081   67%  MEDIUM   100%    67%     1.64  peakCorrLevel_dB
+  #2    1035|1036        1033–1038   11%  NOISE     64%    17%     1.15  peakInputLevel
+  #3    1022|1023        1020–1025    6%  NOISE     64%    10%     1.15  peakInputLevel
+  #4    1068|1069        1066–1071    0%  NOISE     59%     0%     1.10  peakCorrLevel_dB
+  #5    1054|1055        1052–1057    0%  NOISE     11%     0%     0.52  peakUncorrLevel_dB
+  Note #1: Jump present but not fully stable; inspect this zone and the next candidate. Sits at a standing-wave valley: could be wave re-tuning, not the leak.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776456069-7-1-1-8.csv
+  (validation labels) loc=1  res=8
+  Signal strength : STRONG   (peak = 2.78x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1078|1079        1076–1081  100%  HIGH     100%   100%     2.20  peakCorrLevel_dB
+  #2    1035|1036        1033–1038    0%  NOISE     32%     0%     0.77  peakInputLevel
+  #3    1028|1029        1026–1031    0%  NOISE     28%     0%     0.73  peakInputLevel
+  #4    1069|1070        1067–1072    0%  NOISE     20%     0%     0.63  
+  #5    1020|1021        1018–1023    0%  NOISE     15%     0%     0.57  peakInputLevel
+  Note #1: Clear, repeatable jump well above the healthy noise floor. Sits at a standing-wave valley: could be wave re-tuning, not the leak.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776457916-7-1-2-0.csv
+  (validation labels) loc=2  res=0
+  Signal strength : STRONG   (peak = 111.04x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1085|1086        1083–1088  100%  HIGH     100%   100%    87.88  peakInputLevel, peakUncorrLevel_dB, peakCorrLevel_dB
+  #2    1022|1023        1020–1025    0%  NOISE    100%     0%     2.72  peakInputLevel
+  #3    1059|1060        1057–1062    0%  NOISE     94%     0%     1.51  peakInputLevel
+  #4    1042|1043        1040–1045    0%  NOISE     30%     0%     0.75  peakInputLevel
+  #5    1054|1055        1052–1057    0%  NOISE     22%     0%     0.66  peakInputLevel
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+  Note #3: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776458839-7-1-2-1.csv
+  (validation labels) loc=2  res=1
+  Signal strength : STRONG   (peak = 732.89x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1085|1086        1083–1088  100%  HIGH     100%   100%   580.02  peakInputLevel, peakUncorrLevel_dB, peakCorrLevel_dB
+  #2    1036|1037        1034–1039    0%  NOISE     29%     0%     0.74  peakInputLevel
+  #3    1020|1021        1018–1023    0%  NOISE      0%     0%     0.34  
+  #4    1028|1029        1026–1031    0%  NOISE      0%     0%     0.27  
+  #5    1049|1050        1047–1052    0%  NOISE      0%     0%     0.24  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776459762-7-1-2-2.csv
+  (validation labels) loc=2  res=2
+  Signal strength : STRONG   (peak = 306.10x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1085|1086        1083–1088  100%  HIGH     100%   100%   242.25  peakInputLevel, peakUncorrLevel_dB, peakCorrLevel_dB
+  #2    1036|1037        1034–1039    0%  NOISE     22%     0%     0.66  peakInputLevel
+  #3    1062|1063        1060–1065    0%  NOISE      0%     0%     0.37  
+  #4    1071|1072        1069–1074    0%  NOISE      0%     0%     0.37  
+  #5    1044|1045        1042–1047    0%  NOISE      0%     0%     0.35  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776460686-7-1-2-4.csv
+  (validation labels) loc=2  res=4
+  Signal strength : STRONG   (peak = 274.51x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1085|1086        1083–1088  100%  HIGH     100%   100%   217.25  peakInputLevel, peakUncorrLevel_dB, peakCorrLevel_dB
+  #2    1003|1004        1001–1006    0%  NOISE     10%     0%     0.52  peakUncorrLevel_dB
+  #3    1065|1066        1063–1068    0%  NOISE      7%     0%     0.48  peakUncorrLevel_dB
+  #4    1058|1059        1056–1061    0%  NOISE      0%     0%     0.40  
+  #5    1037|1038        1035–1040    0%  NOISE      0%     0%     0.37  peakInputLevel
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776461609-7-1-2-8.csv
+  (validation labels) loc=2  res=8
+  Signal strength : STRONG   (peak = 277.62x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1085|1086        1083–1088  100%  HIGH     100%   100%   219.71  peakInputLevel, peakUncorrLevel_dB
+  #2    1005|1006        1003–1008    0%  NOISE     14%     0%     0.56  peakUncorrLevel_dB
+  #3    1022|1023        1020–1025    0%  NOISE      2%     0%     0.43  peakInputLevel
+  #4    1045|1046        1043–1048    0%  NOISE      0%     0%     0.31  
+  #5    1062|1063        1060–1065    0%  NOISE      0%     0%     0.31  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776463457-7-1-3-0.csv
+  (validation labels) loc=3  res=0
+  Signal strength : STRONG   (peak = 12.40x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1020|1021        1018–1023  100%  HIGH     100%   100%     9.82  peakInputLevel, peakUncorrLevel_dB, peakCorrLevel_dB
+  #2    1085|1086        1083–1088    0%  NOISE    100%     0%     4.86  peakInputLevel, peakUncorrLevel_dB, peakCorrLevel_dB
+  #3    1015|1016        1013–1018    0%  NOISE    100%     0%     3.29  peakInputLevel, peakUncorrLevel_dB
+  #4    1036|1037        1034–1039    0%  NOISE    100%     0%     1.70  peakInputLevel, peakUncorrLevel_dB
+  #5    1059|1060        1057–1062    0%  NOISE     72%     0%     1.25  peakInputLevel, peakCorrLevel_dB
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+  Note #3: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect. Sits at a standing-wave valley: could be wave re-tuning, not the leak.
+  Note #4: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+  Note #5: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776464380-7-1-3-1.csv
+  (validation labels) loc=3  res=1
+  Signal strength : STRONG   (peak = 9.33x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1020|1021        1018–1023  100%  HIGH     100%   100%     7.39  peakInputLevel, peakUncorrLevel_dB
+  #2    1015|1016        1013–1018    0%  NOISE    100%     0%     2.62  peakInputLevel, peakUncorrLevel_dB
+  #3    1085|1086        1083–1088    0%  NOISE    100%     0%     1.60  peakInputLevel, peakUncorrLevel_dB
+  #4    1036|1037        1034–1039    0%  NOISE     41%     0%     0.88  peakInputLevel
+  #5    1028|1029        1026–1031    0%  NOISE     11%     0%     0.52  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect. Sits at a standing-wave valley: could be wave re-tuning, not the leak.
+  Note #3: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776465304-7-1-3-2.csv
+  (validation labels) loc=3  res=2
+  Signal strength : STRONG   (peak = 2.69x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1020|1021        1018–1023  100%  HIGH     100%   100%     2.13  peakInputLevel
+  #2    1015|1016        1013–1018    0%  NOISE     44%     0%     0.92  peakInputLevel
+  #3    1036|1037        1034–1039    0%  NOISE     37%     0%     0.84  peakInputLevel
+  #4    1085|1086        1083–1088    0%  NOISE     25%     0%     0.69  peakInputLevel
+  #5    1078|1079        1076–1081    0%  NOISE     24%     0%     0.68  peakCorrLevel_dB
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776466227-7-1-3-4.csv
+  (validation labels) loc=3  res=4
+  Signal strength : STRONG   (peak = 3.75x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 77%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1078|1079        1076–1081   77%  HIGH     100%    77%     2.96  peakCorrLevel_dB
+  #2    1069|1070        1067–1072    6%  NOISE     92%     7%     1.49  peakCorrLevel_dB
+  #3    1036|1037        1034–1039    5%  NOISE     47%    10%     0.96  peakInputLevel
+  #4    1021|1022        1019–1024    1%  NOISE     23%     3%     0.67  peakInputLevel
+  #5    1084|1085        1082–1087    0%  NOISE      2%     0%     0.42  
+  Note #1: Clear, repeatable jump well above the healthy noise floor. Sits at a standing-wave valley: could be wave re-tuning, not the leak.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776467151-7-1-3-8.csv
+  (validation labels) loc=3  res=8
+  Signal strength : STRONG   (peak = 2.71x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1078|1079        1076–1081  100%  HIGH     100%   100%     2.14  peakCorrLevel_dB
+  #2    1036|1037        1034–1039    0%  NOISE     14%     0%     0.56  peakInputLevel
+  #3    1049|1050        1047–1052    0%  NOISE      0%     0%     0.39  
+  #4    1054|1055        1052–1057    0%  NOISE      0%     0%     0.32  
+  #5    1067|1068        1065–1070    0%  NOISE      0%     0%     0.32  
+  Note #1: Clear, repeatable jump well above the healthy noise floor. Sits at a standing-wave valley: could be wave re-tuning, not the leak.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776468998-7-1-4-0.csv
+  (validation labels) loc=4  res=0
+  Signal strength : STRONG   (peak = 37.49x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1036|1037        1034–1039  100%  HIGH     100%   100%    29.67  peakInputLevel
+  #2    1085|1086        1083–1088    0%  NOISE     98%     0%     1.56  peakInputLevel
+  #3    1049|1050        1047–1052    0%  NOISE     19%     0%     0.62  peakInputLevel
+  #4    1028|1029        1026–1031    0%  NOISE     18%     0%     0.60  peakInputLevel
+  #5    1023|1024        1021–1026    0%  NOISE     17%     0%     0.60  peakCorrLevel_dB
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776469921-7-1-4-1.csv
+  (validation labels) loc=4  res=1
+  Signal strength : STRONG   (peak = 20.85x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1036|1037        1034–1039  100%  HIGH     100%   100%    16.50  peakInputLevel
+  #2    1085|1086        1083–1088    0%  NOISE     81%     0%     1.35  peakInputLevel, peakUncorrLevel_dB
+  #3    1069|1070        1067–1072    0%  NOISE      0%     0%     0.36  
+  #4    1006|1007        1004–1009    0%  NOISE      0%     0%     0.33  peakUncorrLevel_dB
+  #5    1030|1031        1028–1033    0%  NOISE      0%     0%     0.29  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776470845-7-1-4-2.csv
+  (validation labels) loc=4  res=2
+  Signal strength : STRONG   (peak = 8.78x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1036|1037        1034–1039  100%  HIGH     100%   100%     6.95  peakInputLevel
+  #2    1020|1021        1018–1023    0%  NOISE     34%     0%     0.80  peakCorrLevel_dB
+  #3    1060|1061        1058–1063    0%  NOISE     25%     0%     0.70  peakCorrLevel_dB
+  #4    1084|1085        1082–1087    0%  NOISE     12%     0%     0.54  
+  #5    1026|1027        1024–1029    0%  NOISE      9%     0%     0.50  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776471768-7-1-4-4.csv
+  (validation labels) loc=4  res=4
+  Signal strength : MODERATE   (peak = 1.60x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 41%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1036|1037        1034–1039   41%  MEDIUM    73%    57%     1.26  peakInputLevel
+  #2    1067|1068        1065–1070    3%  NOISE     25%    10%     0.69  peakCorrLevel_dB
+  #3    1047|1048        1045–1050    0%  NOISE      0%     3%     0.40  
+  #4    1078|1079        1076–1081    0%  NOISE      8%     0%     0.49  peakCorrLevel_dB
+  #5    1023|1024        1021–1026    0%  NOISE      0%     0%     0.30  
+  Note #1: Jump present but not fully stable; inspect this zone and the next candidate.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776472692-7-1-4-8.csv
+  (validation labels) loc=4  res=8
+  Signal strength : MODERATE   (peak = 1.19x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 29%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1036|1037        1034–1039   29%  LOW       46%    63%     0.94  peakInputLevel
+  #2    1084|1085        1082–1087    1%  NOISE      8%     7%     0.49  peakUncorrLevel_dB
+  #3    1029|1030        1027–1032    0%  NOISE      4%    10%     0.44  peakInputLevel
+  #4    1078|1079        1076–1081    0%  NOISE      5%     0%     0.45  peakCorrLevel_dB
+  #5    1047|1048        1045–1050    0%  NOISE      0%     3%     0.36  peakInputLevel
+  Note #1: Weak or unstable; treat as a hint only.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776714780-7-1-1-0.csv
+  (validation labels) loc=1  res=0
+  Signal strength : STRONG   (peak = 12.35x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1068|1069        1066–1071  100%  HIGH     100%   100%    10.00  peakInputLevel, peakCorrLevel_dB, peakUncorrLevel_dB
+  #2    1032|1033        1030–1035    0%  NOISE    100%     0%     6.43  peakInputLevel, peakCorrLevel_dB, peakUncorrLevel_dB
+  #3    1025|1026        1023–1028    0%  NOISE     13%     0%     0.56  peakInputLevel
+  #4    1020|1021        1018–1023    0%  NOISE      8%     0%     0.50  peakCorrLevel_dB
+  #5    1006|1007        1004–1009    0%  NOISE      2%     0%     0.43  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776715703-7-1-1-1.csv
+  (validation labels) loc=1  res=1
+  Signal strength : STRONG   (peak = 4.25x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 57%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1068|1069        1066–1071   57%  MEDIUM   100%    57%     3.14  peakInputLevel, peakCorrLevel_dB
+  #2    1032|1033        1030–1035   43%  MEDIUM   100%    43%     3.44  peakInputLevel
+  #3    1047|1048        1045–1050    0%  NOISE     12%     0%     0.55  peakInputLevel
+  #4    1025|1026        1023–1028    0%  NOISE      9%     0%     0.52  peakInputLevel
+  #5    1020|1021        1018–1023    0%  NOISE      8%     0%     0.50  
+  Note #1: Jump present but not fully stable; inspect this zone and the next candidate.
+  Note #2: Jump present but not fully stable; inspect this zone and the next candidate.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776716627-7-1-1-2.csv
+  (validation labels) loc=1  res=2
+  Signal strength : MODERATE   (peak = 1.09x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 25%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1068|1069        1066–1071   25%  LOW       39%    63%     0.88  peakInputLevel
+  #2    1020|1021        1018–1023   13%  NOISE     38%    33%     0.87  peakCorrLevel_dB
+  #3    1083|1084        1081–1086    0%  NOISE      9%     3%     0.51  peakCorrLevel_dB
+  #4    1050|1051        1048–1053    0%  NOISE      0%     0%     0.41  
+  #5    1042|1043        1040–1045    0%  NOISE      0%     0%     0.34  
+  Note #1: Weak or unstable; treat as a hint only.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776717550-7-1-1-3.csv
+  (validation labels) loc=1  res=3
+  Signal strength : MODERATE   (peak = 1.05x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 10%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1052|1053        1050–1055   10%  NOISE     37%    27%     0.85  peakInputLevel
+  #2    1023|1024        1021–1026    0%  NOISE      6%     3%     0.48  peakCorrLevel_dB
+  #3    1087|1088        1085–1090    0%  NOISE      1%    20%     0.41  peakCorrLevel_dB
+  #4    1034|1035        1032–1037    0%  NOISE      0%     7%     0.36  
+  #5    1068|1069        1066–1071    0%  NOISE      0%     3%     0.33  
+  Note #1: Indistinguishable from noise.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776718474-7-1-1-4.csv
+  (validation labels) loc=1  res=4
+  Signal strength : MODERATE   (peak = 1.00x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 17%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1032|1033        1030–1035   17%  LOW       34%    50%     0.81  peakInputLevel
+  #2    1041|1042        1039–1044    0%  NOISE      4%     0%     0.45  peakCorrLevel_dB
+  #3    1061|1062        1059–1064    0%  NOISE      0%     3%     0.39  
+  #4    1025|1026        1023–1028    0%  NOISE      0%     3%     0.35  
+  #5    1053|1054        1051–1056    0%  NOISE      0%     3%     0.28  
+  Note #1: Weak or unstable; treat as a hint only.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776719398-7-1-1-5.csv
+  (validation labels) loc=1  res=5
+  Signal strength : MODERATE   (peak = 1.47x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 56%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1032|1033        1030–1035   56%  MEDIUM    64%    87%     1.19  peakInputLevel
+  #2    1044|1045        1042–1047    0%  NOISE      8%     0%     0.50  peakUncorrLevel_dB
+  #3    1049|1050        1047–1052    0%  NOISE      0%    10%     0.37  peakUncorrLevel_dB
+  #4    1020|1021        1018–1023    0%  NOISE      0%     3%     0.37  peakCorrLevel_dB
+  #5    1087|1088        1085–1090    0%  NOISE      0%     0%     0.26  
+  Note #1: Jump present but not fully stable; inspect this zone and the next candidate.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776720321-7-1-1-8.csv
+  (validation labels) loc=1  res=8
+  Signal strength : STRONG   (peak = 5.26x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1032|1033        1030–1035  100%  HIGH     100%   100%     4.26  peakInputLevel
+  #2    1047|1048        1045–1050    0%  NOISE     12%     0%     0.55  peakInputLevel
+  #3    1021|1022        1019–1024    0%  NOISE      6%     0%     0.47  peakUncorrLevel_dB
+  #4    1056|1057        1054–1059    0%  NOISE      0%     0%     0.38  
+  #5    1037|1038        1035–1040    0%  NOISE      0%     0%     0.31  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776722168-7-1-2-0.csv
+  (validation labels) loc=2  res=0
+  Signal strength : STRONG   (peak = 69.03x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1068|1069        1066–1071  100%  HIGH     100%   100%    55.90  peakInputLevel, peakUncorrLevel_dB, peakCorrLevel_dB
+  #2    1021|1022        1019–1024    0%  NOISE    100%     0%     7.61  peakInputLevel, peakUncorrLevel_dB
+  #3    1047|1048        1045–1050    0%  NOISE    100%     0%     2.41  peakInputLevel
+  #4    1032|1033        1030–1035    0%  NOISE    100%     0%     2.40  peakCorrLevel_dB, peakInputLevel
+  #5    1082|1083        1080–1085    0%  NOISE     43%     0%     0.93  peakInputLevel, peakCorrLevel_dB
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+  Note #3: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+  Note #4: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776723092-7-1-2-1.csv
+  (validation labels) loc=2  res=1
+  Signal strength : STRONG   (peak = 59.13x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1068|1069        1066–1071  100%  HIGH     100%   100%    47.89  peakInputLevel, peakUncorrLevel_dB
+  #2    1021|1022        1019–1024    0%  NOISE    100%     0%     6.91  peakInputLevel, peakUncorrLevel_dB, peakCorrLevel_dB
+  #3    1047|1048        1045–1050    0%  NOISE    100%     0%     1.76  peakInputLevel
+  #4    1082|1083        1080–1085    0%  NOISE     24%     0%     0.70  peakInputLevel
+  #5    1032|1033        1030–1035    0%  NOISE     23%     0%     0.69  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+  Note #3: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776724015-7-1-2-2.csv
+  (validation labels) loc=2  res=2
+  Signal strength : STRONG   (peak = 16.29x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1068|1069        1066–1071  100%  HIGH     100%   100%    13.19  peakInputLevel, peakUncorrLevel_dB
+  #2    1021|1022        1019–1024    0%  NOISE    100%     0%     3.99  peakCorrLevel_dB, peakInputLevel
+  #3    1032|1033        1030–1035    0%  NOISE     59%     0%     1.12  peakInputLevel
+  #4    1047|1048        1045–1050    0%  NOISE     52%     0%     1.04  peakInputLevel
+  #5    1041|1042        1039–1044    0%  NOISE      5%     0%     0.47  peakInputLevel
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776724939-7-1-2-3.csv
+  (validation labels) loc=2  res=3
+  Signal strength : STRONG   (peak = 6.72x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1068|1069        1066–1071  100%  HIGH     100%   100%     5.44  peakInputLevel
+  #2    1021|1022        1019–1024    0%  NOISE    100%     0%     1.81  peakCorrLevel_dB, peakInputLevel
+  #3    1047|1048        1045–1050    0%  NOISE     11%     0%     0.53  peakInputLevel
+  #4    1034|1035        1032–1037    0%  NOISE     10%     0%     0.53  
+  #5    1082|1083        1080–1085    0%  NOISE      5%     0%     0.46  peakInputLevel
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776725862-7-1-2-4.csv
+  (validation labels) loc=2  res=4
+  Signal strength : MODERATE   (peak = 1.02x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 9%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1032|1033        1030–1035    9%  NOISE     35%    27%     0.83  peakInputLevel
+  #2    1020|1021        1018–1023    8%  NOISE     25%    33%     0.71  peakCorrLevel_dB
+  #3    1059|1060        1057–1062    0%  NOISE      2%    13%     0.43  
+  #4    1047|1048        1045–1050    0%  NOISE      0%     3%     0.35  
+  #5    1042|1043        1040–1045    0%  NOISE      0%     7%     0.34  
+  Note #1: Indistinguishable from noise.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776726786-7-1-2-5.csv
+  (validation labels) loc=2  res=5
+  Signal strength : MODERATE   (peak = 1.44x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 19%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1032|1033        1030–1035   19%  LOW       63%    30%     1.16  peakInputLevel
+  #2    1068|1069        1066–1071    3%  NOISE     32%    10%     0.79  peakInputLevel
+  #3    1020|1021        1018–1023    3%  NOISE     38%     7%     0.87  peakCorrLevel_dB, peakInputLevel
+  #4    1055|1056        1053–1058    1%  NOISE      8%    17%     0.50  
+  #5    1047|1048        1045–1050    1%  NOISE     29%     3%     0.75  peakInputLevel
+  Note #1: Weak or unstable; treat as a hint only.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776727709-7-1-2-8.csv
+  (validation labels) loc=2  res=8
+  Signal strength : MODERATE   (peak = 1.56x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 40%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1068|1069        1066–1071   40%  MEDIUM    71%    57%     1.26  peakInputLevel
+  #2    1032|1033        1030–1035    5%  NOISE     35%    13%     0.83  peakInputLevel
+  #3    1047|1048        1045–1050    2%  NOISE     31%     7%     0.78  peakInputLevel
+  #4    1024|1025        1022–1027    2%  NOISE     11%    17%     0.54  peakCorrLevel_dB
+  #5    1016|1017        1014–1019    0%  NOISE      0%     0%     0.37  peakCorrLevel_dB, peakInputLevel, peakUncorrLevel_dB
+  Note #1: Jump present but not fully stable; inspect this zone and the next candidate.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776729556-7-1-3-0.csv
+  (validation labels) loc=3  res=0
+  Signal strength : STRONG   (peak = 36.91x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1021|1022        1019–1024  100%  HIGH     100%   100%    29.89  peakInputLevel, peakUncorrLevel_dB
+  #2    1068|1069        1066–1071    0%  NOISE    100%     0%     8.08  peakInputLevel, peakUncorrLevel_dB
+  #3    1032|1033        1030–1035    0%  NOISE    100%     0%     2.09  peakInputLevel
+  #4    1059|1060        1057–1062    0%  NOISE     27%     0%     0.74  peakCorrLevel_dB
+  #5    1047|1048        1045–1050    0%  NOISE     26%     0%     0.71  peakInputLevel
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+  Note #3: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776730480-7-1-3-1.csv
+  (validation labels) loc=3  res=1
+  Signal strength : STRONG   (peak = 32.83x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1021|1022        1019–1024  100%  HIGH     100%   100%    26.58  peakInputLevel, peakUncorrLevel_dB
+  #2    1068|1069        1066–1071    0%  NOISE    100%     0%     6.64  peakInputLevel, peakCorrLevel_dB, peakUncorrLevel_dB
+  #3    1032|1033        1030–1035    0%  NOISE     82%     0%     1.39  peakInputLevel
+  #4    1047|1048        1045–1050    0%  NOISE     21%     0%     0.66  peakInputLevel
+  #5    1083|1084        1081–1086    0%  NOISE     10%     0%     0.52  peakCorrLevel_dB
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+  Note #3: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776731404-7-1-3-2.csv
+  (validation labels) loc=3  res=2
+  Signal strength : STRONG   (peak = 5.09x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1021|1022        1019–1024  100%  HIGH     100%   100%     4.12  peakInputLevel
+  #2    1068|1069        1066–1071    0%  NOISE    100%     0%     1.62  peakInputLevel, peakCorrLevel_dB
+  #3    1047|1048        1045–1050    0%  NOISE     23%     0%     0.69  peakInputLevel
+  #4    1057|1058        1055–1060    0%  NOISE     13%     0%     0.56  peakCorrLevel_dB
+  #5    1034|1035        1032–1037    0%  NOISE      7%     0%     0.49  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+  Note #2: Real jump (well above healthy noise) but always weaker than a higher-ranked candidate; second place to inspect.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776732327-7-1-3-3.csv
+  (validation labels) loc=3  res=3
+  Signal strength : STRONG   (peak = 4.21x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1021|1022        1019–1024  100%  HIGH     100%   100%     3.41  peakInputLevel
+  #2    1068|1069        1066–1071    0%  NOISE     46%     0%     0.96  peakInputLevel
+  #3    1083|1084        1081–1086    0%  NOISE     35%     0%     0.83  peakCorrLevel_dB
+  #4    1055|1056        1053–1058    0%  NOISE     14%     0%     0.57  
+  #5    1060|1061        1058–1063    0%  NOISE     10%     0%     0.53  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776733250-7-1-3-4.csv
+  (validation labels) loc=3  res=4
+  Signal strength : MODERATE   (peak = 1.06x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 18%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1048|1049        1046–1051   18%  LOW       38%    47%     0.86  peakInputLevel
+  #2    1065|1066        1063–1068    2%  NOISE      7%    23%     0.49  peakInputLevel
+  #3    1027|1028        1025–1030    0%  NOISE      3%    10%     0.45  
+  #4    1055|1056        1053–1058    0%  NOISE      0%    10%     0.35  
+  #5    1004|1005        1002–1007    0%  NOISE      0%     0%     0.25  
+  Note #1: Weak or unstable; treat as a hint only.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776734174-7-1-3-5.csv
+  (validation labels) loc=3  res=5
+  Signal strength : WEAK   (peak = 0.64x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 2%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1047|1048        1045–1050    2%  NOISE      9%    23%     0.52  peakInputLevel
+  #2    1068|1069        1066–1071    0%  NOISE      0%    33%     0.39  
+  #3    1042|1043        1040–1045    0%  NOISE      0%     7%     0.37  
+  #4    1087|1088        1085–1090    0%  NOISE      0%     0%     0.32  
+  #5    1030|1031        1028–1033    0%  NOISE      0%     7%     0.31  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776735097-7-1-3-8.csv
+  (validation labels) loc=3  res=8
+  Signal strength : MODERATE   (peak = 1.95x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 97%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1021|1022        1019–1024   97%  HIGH      97%   100%     1.58  peakInputLevel
+  #2    1004|1005        1002–1007    0%  NOISE      0%     0%     0.37  
+  #3    1026|1027        1024–1029    0%  NOISE      0%     0%     0.36  
+  #4    1066|1067        1064–1069    0%  NOISE      0%     0%     0.34  peakCorrLevel_dB
+  #5    1048|1049        1046–1051    0%  NOISE      0%     0%     0.31  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776736944-7-1-4-0.csv
+  (validation labels) loc=4  res=0
+  Signal strength : STRONG   (peak = 2.07x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 100%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1047|1048        1045–1050  100%  HIGH     100%   100%     1.68  peakInputLevel
+  #2    1021|1022        1019–1024    0%  NOISE     19%     0%     0.64  peakInputLevel
+  #3    1087|1088        1085–1090    0%  NOISE     16%     0%     0.60  peakCorrLevel_dB
+  #4    1064|1065        1062–1067    0%  NOISE      0%     0%     0.37  
+  #5    1039|1040        1037–1042    0%  NOISE      0%     0%     0.36  
+  Note #1: Clear, repeatable jump well above the healthy noise floor.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776737868-7-1-4-1.csv
+  (validation labels) loc=4  res=1
+  Signal strength : WEAK   (peak = 0.71x largest healthy false peak)
+  Active metrics  : 1/3
+  Top confidence  : 3%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1044|1045        1042–1047    3%  NOISE     10%    27%     0.52  peakInputLevel
+  #2    1022|1023        1020–1025    2%  NOISE     14%    13%     0.57  
+  #3    1034|1035        1032–1037    0%  NOISE      0%    13%     0.39  
+  #4    1039|1040        1037–1042    0%  NOISE      0%    17%     0.33  
+  #5    1060|1061        1058–1063    0%  NOISE      0%     0%     0.32  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776738792-7-1-4-2.csv
+  (validation labels) loc=4  res=2
+  Signal strength : WEAK   (peak = 0.51x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 0%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1060|1061        1058–1063    0%  NOISE      1%    10%     0.42  peakCorrLevel_dB
+  #2    1042|1043        1040–1045    0%  NOISE      0%     0%     0.40  peakUncorrLevel_dB
+  #3    1030|1031        1028–1033    0%  NOISE      0%    23%     0.39  
+  #4    1055|1056        1053–1058    0%  NOISE      0%    20%     0.35  
+  #5    1006|1007        1004–1009    0%  NOISE      0%     3%     0.25  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776739715-7-1-4-3.csv
+  (validation labels) loc=4  res=3
+  Signal strength : WEAK   (peak = 0.59x largest healthy false peak)
+  Active metrics  : 1/3
+  Top confidence  : 1%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1020|1021        1018–1023    1%  NOISE      6%    17%     0.48  peakCorrLevel_dB
+  #2    1032|1033        1030–1035    0%  NOISE      0%    10%     0.35  
+  #3    1042|1043        1040–1045    0%  NOISE      0%    27%     0.32  
+  #4    1025|1026        1023–1028    0%  NOISE      0%     0%     0.24  
+  #5    1051|1052        1049–1054    0%  NOISE      0%    13%     0.23  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776740639-7-1-4-4.csv
+  (validation labels) loc=4  res=4
+  Signal strength : WEAK   (peak = 0.60x largest healthy false peak)
+  Active metrics  : 1/3
+  Top confidence  : 3%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1057|1058        1055–1060    3%  NOISE      7%    40%     0.49  peakInputLevel
+  #2    1032|1033        1030–1035    1%  NOISE      5%    13%     0.47  peakInputLevel
+  #3    1052|1053        1050–1055    0%  NOISE      0%    10%     0.32  
+  #4    1027|1028        1025–1030    0%  NOISE      0%     7%     0.26  
+  #5    1068|1069        1066–1071    0%  NOISE      0%     3%     0.26  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776741562-7-1-4-5.csv
+  (validation labels) loc=4  res=5
+  Signal strength : WEAK   (peak = 0.82x largest healthy false peak)
+  Active metrics  : 1/3
+  Top confidence  : 3%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1060|1061        1058–1063    3%  NOISE     21%    13%     0.66  
+  #2    1044|1045        1042–1047    2%  NOISE      6%    30%     0.47  
+  #3    1055|1056        1053–1058    1%  NOISE     12%     7%     0.55  peakCorrLevel_dB
+  #4    1032|1033        1030–1035    0%  NOISE      0%    10%     0.37  
+  #5    1037|1038        1035–1040    0%  NOISE      0%    23%     0.35  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776742486-7-1-4-8.csv
+  (validation labels) loc=4  res=8
+  Signal strength : WEAK   (peak = 0.80x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 4%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1055|1056        1053–1058    4%  NOISE     19%    23%     0.63  peakCorrLevel_dB
+  #2    1028|1029        1026–1031    2%  NOISE     20%    10%     0.64  peakCorrLevel_dB
+  #3    1047|1048        1045–1050    0%  NOISE      2%    17%     0.43  peakInputLevel
+  #4    1020|1021        1018–1023    0%  NOISE      2%     0%     0.43  
+  #5    1034|1035        1032–1037    0%  NOISE      0%     7%     0.29  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+######################################################################
+# FALSE-ALARM TEST: each healthy file vs the other healthy files
+######################################################################
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776350717-7-1-0-0.csv
+  (validation labels) loc=0  res=0
+  Signal strength : WEAK   (peak = 0.98x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 6%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1083|1084        1081–1086    6%  NOISE     32%    20%     0.62  peakUncorrLevel_dB
+  #2    1048|1049        1046–1051    6%  NOISE     27%    23%     0.57  
+  #3    1055|1056        1053–1058    1%  NOISE     18%     3%     0.48  
+  #4    1037|1038        1035–1040    0%  NOISE      3%    17%     0.34  
+  #5    1065|1066        1063–1068    0%  NOISE      0%     3%     0.29  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776356257-7-1-0-0.csv
+  (validation labels) loc=0  res=0
+  Signal strength : WEAK   (peak = 0.54x largest healthy false peak)
+  Active metrics  : 1/3
+  Top confidence  : 0%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1034|1035        1032–1037    0%  NOISE      3%    13%     0.37  
+  #2    1065|1066        1063–1068    0%  NOISE      1%     7%     0.36  peakCorrLevel_dB
+  #3    1029|1030        1027–1032    0%  NOISE      0%    27%     0.33  
+  #4    1059|1060        1057–1062    0%  NOISE      0%    13%     0.30  
+  #5    1041|1042        1039–1044    0%  NOISE      0%     3%     0.29  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776361798-7-1-0-0.csv
+  (validation labels) loc=0  res=0
+  Signal strength : MODERATE   (peak = 1.29x largest healthy false peak)
+  Active metrics  : 1/3
+  Top confidence  : 19%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1059|1060        1057–1062   19%  LOW       53%    37%     0.76  peakInputLevel
+  #2    1042|1043        1040–1045    1%  NOISE     14%     7%     0.42  
+  #3    1033|1034        1031–1036    1%  NOISE      8%    10%     0.37  
+  #4    1049|1050        1047–1052    0%  NOISE      3%     7%     0.32  
+  #5    1086|1087        1084–1089    0%  NOISE      0%     3%     0.24  
+  Note #1: Weak or unstable; treat as a hint only.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0001  |  File: 1776367338-7-1-0-0.csv
+  (validation labels) loc=0  res=0
+  Signal strength : WEAK   (peak = 0.83x largest healthy false peak)
+  Active metrics  : 0/3
+  Top confidence  : 8%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1040|1041        1038–1043    8%  NOISE     20%    40%     0.55  
+  #2    1065|1066        1063–1068    3%  NOISE     22%    13%     0.57  
+  #3    1048|1049        1046–1051    1%  NOISE      5%    10%     0.40  
+  #4    1027|1028        1025–1030    0%  NOISE      4%     7%     0.38  
+  #5    1082|1083        1080–1085    0%  NOISE      5%     0%     0.40  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776451451-7-1-0-0.csv
+  (validation labels) loc=0  res=0
+  Signal strength : MODERATE   (peak = 1.03x largest healthy false peak)
+  Active metrics  : 1/3
+  Top confidence  : 15%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1037|1038        1035–1040   15%  LOW       35%    43%     0.68  peakInputLevel
+  #2    1044|1045        1042–1047    8%  NOISE     23%    37%     0.56  peakInputLevel
+  #3    1051|1052        1049–1054    1%  NOISE      3%    17%     0.36  
+  #4    1026|1027        1024–1029    0%  NOISE      6%     0%     0.39  
+  #5    1086|1087        1084–1089    0%  NOISE      0%     0%     0.25  
+  Note #1: Weak or unstable; treat as a hint only.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776456992-7-1-0-0.csv
+  (validation labels) loc=0  res=0
+  Signal strength : WEAK   (peak = 0.69x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 3%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1053|1054        1051–1056    3%  NOISE     13%    27%     0.60  peakCorrLevel_dB
+  #2    1020|1021        1018–1023    0%  NOISE      1%    10%     0.45  
+  #3    1066|1067        1064–1069    0%  NOISE      0%    13%     0.38  
+  #4    1059|1060        1057–1062    0%  NOISE      0%     3%     0.38  
+  #5    1047|1048        1045–1050    0%  NOISE      0%     7%     0.32  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776462533-7-1-0-0.csv
+  (validation labels) loc=0  res=0
+  Signal strength : WEAK   (peak = 0.83x largest healthy false peak)
+  Active metrics  : 0/3
+  Top confidence  : 8%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1027|1028        1025–1030    8%  NOISE     22%    37%     0.56  
+  #2    1068|1069        1066–1071    1%  NOISE     17%     7%     0.51  
+  #3    1057|1058        1055–1060    0%  NOISE      0%    20%     0.32  
+  #4    1039|1040        1037–1042    0%  NOISE      0%    13%     0.28  
+  #5    1062|1063        1060–1065    0%  NOISE      0%     3%     0.18  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0002  |  File: 1776468074-7-1-0-0.csv
+  (validation labels) loc=0  res=0
+  Signal strength : WEAK   (peak = 0.56x largest healthy false peak)
+  Active metrics  : 2/3
+  Top confidence  : 1%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1053|1054        1051–1056    1%  NOISE      4%    23%     0.51  peakCorrLevel_dB
+  #2    1037|1038        1035–1040    0%  NOISE      0%    37%     0.40  
+  #3    1059|1060        1057–1062    0%  NOISE      0%     3%     0.39  
+  #4    1045|1046        1043–1048    0%  NOISE      0%     7%     0.38  
+  #5    1031|1032        1029–1034    0%  NOISE      0%     0%     0.34  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776713857-7-1-0-0.csv
+  (validation labels) loc=0  res=0
+  Signal strength : WEAK   (peak = 0.51x largest healthy false peak)
+  Active metrics  : 0/3
+  Top confidence  : 0%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1085|1086        1083–1088    0%  NOISE      1%    10%     0.41  
+  #2    1040|1041        1038–1043    0%  NOISE      0%    17%     0.36  
+  #3    1058|1059        1056–1061    0%  NOISE      0%    13%     0.32  
+  #4    1049|1050        1047–1052    0%  NOISE      0%    13%     0.25  
+  #5    1027|1028        1025–1030    0%  NOISE      0%     7%     0.21  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776721245-7-1-0-0.csv
+  (validation labels) loc=0  res=0
+  Signal strength : MODERATE   (peak = 1.35x largest healthy false peak)
+  Active metrics  : 3/3
+  Top confidence  : 17%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1059|1060        1057–1062   17%  LOW       43%    40%     0.72  peakInputLevel
+  #2    1040|1041        1038–1043    6%  NOISE     56%    10%     0.85  peakInputLevel, peakUncorrLevel_dB
+  #3    1003|1004        1001–1006    4%  NOISE     55%     7%     0.84  peakCorrLevel_dB
+  #4    1068|1069        1066–1071    0%  NOISE     14%     3%     0.45  peakCorrLevel_dB
+  #5    1031|1032        1029–1034    0%  NOISE     19%     0%     0.50  peakCorrLevel_dB
+  Note #1: Weak or unstable; treat as a hint only.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776728633-7-1-0-0.csv
+  (validation labels) loc=0  res=0
+  Signal strength : WEAK   (peak = 0.82x largest healthy false peak)
+  Active metrics  : 1/3
+  Top confidence  : 6%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1068|1069        1066–1071    6%  NOISE     19%    30%     0.64  peakUncorrLevel_dB
+  #2    1084|1085        1082–1087    4%  NOISE     21%    20%     0.67  peakUncorrLevel_dB
+  #3    1024|1025        1022–1027    1%  NOISE      6%    17%     0.48  peakUncorrLevel_dB
+  #4    1040|1041        1038–1043    0%  NOISE      1%     0%     0.42  peakUncorrLevel_dB
+  #5    1035|1036        1033–1038    0%  NOISE      0%     7%     0.38  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
+
+=== EFD Localization Result ===
+  Run: T0003  |  File: 1776736021-7-1-0-0.csv
+  (validation labels) loc=0  res=0
+  Signal strength : NONE   (peak = 0.46x largest healthy false peak)
+  Active metrics  : 1/3
+  Top confidence  : 0%
+
+  Rank        Boundary        Zone   Conf Band    Detect  Votes    Score  Metrics
+  ----------------------------------------------------------------------------------------
+  #1    1028|1029        1026–1031    0%  NOISE      0%    33%     0.46  peakCorrLevel_dB
+  #2    1084|1085        1082–1087    0%  NOISE      0%    17%     0.37  
+  #3    1034|1035        1032–1037    0%  NOISE      0%    23%     0.35  
+  #4    1058|1059        1056–1061    0%  NOISE      0%     7%     0.20  
+  #5    1068|1069        1066–1071    0%  NOISE      0%     0%     0.18  
+  Note #1: Indistinguishable from noise.
+  [WARN] Top peak is not above the largest false peak seen on healthy data: fault may be absent or too weak to localize.
+  [WARN] Bootstrap answers are scattered: location is not well constrained.
